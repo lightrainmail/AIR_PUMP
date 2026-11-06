@@ -1,0 +1,5 @@
+# 忽略编译生成的目标文件
+/obj/
+
+# 忽略MounRiver Studio 生成的缓存文件
+/.mrs/
