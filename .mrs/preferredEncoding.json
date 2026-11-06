@@ -1,0 +1,12 @@
+{
+	"details": [
+		{
+			"file": "BSP/DISP/disp.c",
+			"encoding": "utf8"
+		},
+		{
+			"file": "BSP/DISP/disp.h",
+			"encoding": "utf8bom"
+		}
+	]
+}

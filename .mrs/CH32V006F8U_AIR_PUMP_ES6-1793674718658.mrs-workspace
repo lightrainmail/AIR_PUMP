@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "CH32V006F8U_AIR_PUMP_ES6",
+			"path": "c:\\Users\\admin\\OneDrive\\_32BitMCU\\CH32\\CH32V006\\PROJECT_AIR_PUMP\\CH32V006F8U6_AIR_PUMP_ES6"
+		}
+	],
+	"settings": {
+		"mrs.workspace.type": "project",
+		"files.associations": {
+			"*.c": "c",
+			"*.h": "cpp",
+			"*.hxx": "cpp",
+			"*.hpp": "cpp",
+			"*.c++": "cpp",
+			"*.cpp": "cpp",
+			"*.cxx": "cpp",
+			"*.cc": "cpp",
+			"*.hh": "cpp",
+			"*.h++": "cpp"
+		}
+	}
+}
