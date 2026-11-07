@@ -41,23 +41,39 @@
 				"parentLogicPath": "BSP",
 				"type": "folder",
 				"name": "BAT"
+			},
+			{
+				"parentLogicPath": "",
+				"type": "file",
+				"name": "*.7z"
+			},
+			{
+				"parentLogicPath": "",
+				"type": "file",
+				"name": "*.zip"
+			},
+			{
+				"parentLogicPath": "",
+				"type": "file",
+				"name": "*.tar"
 			}
 		],
-		"projectName": "CH32V006F8U_AIR_PUMP_ES4",
+		"projectName": "CH32V006F8U_AIR_PUMP",
 		"architecture": "RISC-V",
 		"projectType": "c"
 	},
 	"buildConfig": {
 		"configurations": [
 			{
+				"parallelizationNumber": "optimal",
 				"buildArtifact": {
 					"artifact_name": "${ProjName}",
 					"artifact_extension": "elf",
 					"output_prefix": "",
 					"artifact_type": "Executable"
 				},
-				"parallelizationNumber": "optimal",
 				"stop_on_first_build_error": true,
+				"usingCacheAccelerate": false,
 				"pre_script": "",
 				"pre_script_description": "",
 				"post_script": "",
@@ -343,7 +359,7 @@
 	"flashConfig": {
 		"mcutype": "CH32V002/4/5/6/7",
 		"address": "0x08000000",
-		"target_path": "obj/CH32V006F8U_AIR_PUMP_ES4.hex",
+		"target_path": "obj/CH32V006F8U_AIR_PUMP.hex",
 		"clkSpeed": "High",
 		"debug_interface_mode": "1-wire serial",
 		"erase": true,
@@ -369,7 +385,7 @@
 			"configOptions": [
 				"-f \"${WCH:OpenOCD:default}/bin/wch-riscv.cfg\""
 			],
-			"host": "localhost",
+			"host": "127.0.0.1",
 			"port": 3333,
 			"skipDownloadBeforeDebug": false,
 			"enablePageEraser": false,
@@ -424,15 +440,17 @@
 			"showDebugOutputTimestamps": true
 		},
 		"reserve": {
-			"PROGRAM_NAME": "obj/CH32V006F8U_AIR_PUMP_ES3.elf",
-			"PROJECT_ATTR": "CH32V006F8U_AIR_PUMP_ES3",
+			"PROGRAM_NAME": "obj/CH32V006F8U_AIR_PUMP_ES5.elf",
+			"PROJECT_ATTR": "CH32V006F8U_AIR_PUMP_ES5",
 			"PROJECT_BUILD_CONFIG_AUTO_ATTR": true,
 			"PROJECT_BUILD_CONFIG_ID_ATTR": "",
 			"ATTR_BUILD_BEFORE_LAUNCH_ATTR": 2,
 			"GdbServerAllocateConsole": true,
 			"GdbServerAllocateTelnetConsole": false,
+			"SkipDownloadBeforeDebug": false,
 			"StartGdbCLient": true,
-			"UPDATE_THREADLIST_ON_SUSPEND": false
+			"UPDATE_THREADLIST_ON_SUSPEND": false,
+			"DebugInRam": false
 		}
 	}
 }

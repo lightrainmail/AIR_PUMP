@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <projectDescription>
-  <name>CH32V006F8U_AIR_PUMP_ES5</name>
+  <name>CH32V006F8U_AIR_PUMP</name>
   <comment/>
   <projects/>
   <buildSpec>
@@ -52,6 +52,30 @@
       <matcher>
         <id>org.eclipse.ui.ide.multiFilter</id>
         <arguments>1.0-name-matches-false-false-BAT</arguments>
+      </matcher>
+    </filter>
+    <filter>
+      <name/>
+      <type>6</type>
+      <matcher>
+        <id>org.eclipse.ui.ide.multiFilter</id>
+        <arguments>1.0-name-matches-false-false-*.7z</arguments>
+      </matcher>
+    </filter>
+    <filter>
+      <name/>
+      <type>6</type>
+      <matcher>
+        <id>org.eclipse.ui.ide.multiFilter</id>
+        <arguments>1.0-name-matches-false-false-*.zip</arguments>
+      </matcher>
+    </filter>
+    <filter>
+      <name/>
+      <type>6</type>
+      <matcher>
+        <id>org.eclipse.ui.ide.multiFilter</id>
+        <arguments>1.0-name-matches-false-false-*.tar</arguments>
       </matcher>
     </filter>
   </filteredResources>
